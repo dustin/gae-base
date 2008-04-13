@@ -1,0 +1,71 @@
+html {
+	font-family: verdana;
+}
+
+.info {
+	background: #fe0;
+	color: inherit;
+	padding: 2px;
+}
+
+.error {
+	background: #fe0;
+	color: red;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.fieldWithErrors input {
+  border: solid red 3px;
+}
+
+#footer {
+	clear: both;
+	font-size: small;
+	border-top: solid black 1px;
+	margin-top: 1em;
+}
+
+#openid_url {
+  background: url(/images/login-bg.gif) no-repeat #FFF 5px;
+  padding-left: 25px;
+}
+
+#map_div_id {
+	margin-left: 300px;
+}
+
+#onmap {
+	float: left;
+	width: 300px;
+}
+
+#approval_map, #submission_map {
+	float: right;
+}
+
+img {
+	border: none;
+}
+
+pre code {
+	display: block;
+	background: #222;
+	color: green;
+}
+
+table {
+    font-size: small;
+    border: solid 1px;
+    margin-left: 1em;
+    border-collapse: collapse;
+}
+
+table th {
+    border: solid 1px;
+    background-color: #ccc;
+}
+
+table td {
+    border: solid 1px;
+}
